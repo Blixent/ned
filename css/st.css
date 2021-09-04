@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif !important;
+}
+
+.a-custom {
+  color: #45b8b0 !important;
+  font-weight: 700;
+}
+
+.a-active-custom {
+  color: #035269 !important; /*AMARILLO*/
+}
+
+.nav-link:hover {
+  color: #035269 !important; /*AMARILLO*/
+}
+
+.jumbo-info {
+  height: 600px;
+  background-image: url(https://images.pexels.com/photos/133953/pexels-photo-133953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.contenedor-textos {
+  /*padding: 0;*/
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.jumbo-info h1,
+h2,
+p {
+  padding-bottom: 1px;
+  color: #ffffff;
+}
+
+.jumbo-info h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.jumbo-info h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.jumbo-info p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.texto-color {
+  color: #45b8b0;
+}
+
+/***************************** FOOTER *****************************/
+
+footer {
+  background-color: #161616;
+}
+
+.contenedor-pie {
+  display: flex;
+  padding: 0;
+  min-height: 300px;
+}
+
+.contenido-pie {
+  width: 800px;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /*background-color: coral;
+	border: 1px solid black;*/
+}
+
+.contenido-pie h2 {
+  color: #45b8b0;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.quote-txt {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 0;
+}
+
+.contenido-pie p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: right;
+}
+
+.logo-pie {
+  height: 75px;
+  padding: 15px;
+  color: #fff;
+}
+
+.buscanos {
+  display: inline-block;
+}
+
+.buscanos img {
+  margin: 10px;
+}
+
+.buscanos a {
+  text-decoration: none;
+}
+
+.items-pie li {
+  list-style: none;
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.items-pie a {
+  text-decoration: none;
+  color: #45b8b0;
+  transition: 0.3s;
+}
+
+.items-pie a:hover {
+  color: #45b8b0;
+}
